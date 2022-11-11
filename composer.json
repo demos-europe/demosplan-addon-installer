@@ -1,0 +1,24 @@
+{
+    "name": "demos/demosplan-addon-installer",
+    "description": "This is supposed to correctly install addons in the right folder. Maybe does even more cool things in the future.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlexMenschoid",
+            "email": "meyer-schlichtmann@demos-deutschland.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"dplanAddon\\": "src/"}
+    },
+    "extra": {
+        "class": "dplanAddon\\AddonInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.1"
+    }
+}
