@@ -1,5 +1,5 @@
 {
-    "name": "demos/demosplan-addon-installer",
+    "name": "demos-europe/demosplan-addon-installer",
     "description": "This is supposed to correctly install addons in the right folder. Maybe does even more cool things in the future.",
     "type": "composer-plugin",
     "license": "MIT",
