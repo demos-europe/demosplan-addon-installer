@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace dplanAddon;
+namespace DemosEurope\DemosplanAddon;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
