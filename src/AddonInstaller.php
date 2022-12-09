@@ -14,7 +14,7 @@ class AddonInstaller extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        return 'addons/vendor/'.$package->getPrettyName();
+        return 'installed/'.$package->getPrettyName();
     }
 
     /**
